@@ -1,0 +1,17 @@
+import logo from './logo.svg';
+import './App.css';
+import {useState} from 'react';
+
+function App() {
+ 	const [folds, setFolds] = useState([]);
+	const [sum, setSum] = useState(0);
+
+	return (
+    <div className="ẃ-100 h-100">
+	<h1 className="w-20 mx-auto">Hello and welcome to your savings manager!</h1>
+   	 
+	  </div>
+  );
+}
+
+export default App;
